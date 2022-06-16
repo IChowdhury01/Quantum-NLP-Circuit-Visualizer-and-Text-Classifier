@@ -1,0 +1,9 @@
+s = start of parsing the sentence
+n = noun or noun phrase i.e a table as well as any.
+n.l or n.r = association of a noun is to the left or right depending on l or right
+
+example Miles (n) gave (n.r)
+Miles is a noun and gave is associated with that noun to the right.
+
+full Miles gave 			gwen 	a 		ride
+	 n 	  (n.r s n.l n.l)	(n)		(n n.l) (n)
