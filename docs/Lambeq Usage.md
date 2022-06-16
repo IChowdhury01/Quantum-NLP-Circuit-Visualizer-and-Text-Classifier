@@ -28,3 +28,5 @@ Miles is a noun and gave is associated with that noun to the right.
 
 full Miles gave 			gwen 	a 		ride
 	 n 	  (n.r s n.l n.l)	(n)		(n n.l) (n)
+
+![Rewritten string diagram](screenshots/StringDiagramEx.png)
