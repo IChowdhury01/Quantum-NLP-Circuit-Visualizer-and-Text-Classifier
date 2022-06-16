@@ -1,4 +1,0 @@
-Program-Maintenance-Fee is the initial 30000 of Program Revenues.
-Commencement-Date is Jan 15 2020
-Effective-End-Date is Jan 14 2022
-Initial-ADS-Amount is equal to 60000000
