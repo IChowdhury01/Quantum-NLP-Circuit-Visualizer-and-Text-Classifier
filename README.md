@@ -21,3 +21,14 @@ Each step of the process is visualized through diagrams.
    pip install pylatexenc
    pip install pytest  # For running tests
    ```
+   
+### Usage
+
+- [quantum.py](app/src/main/pipelines/quantum.py)
+  - Run this script to  send a pre-defined sentence into the quantum pipeline, and view all computed string diagrams and quantum circuits.
+- [classical.py](app/src/main/pipelines/classical.py)
+  - Send a pre-defined sentence into the classical pipeline, and view string diagrams and tensor networks.
+- [quantum_user_input.py](app/src/main/quantum_user_input.py)
+  - Run this script to input your own sentence into the quantum pipeline, and see the resulting string diagrams and quantum circuits.
+- [classical_user_input.py](app/src/main/classical_user_input.py)
+  - Input your own sentence into the classical pipeline, and see the resulting string diagrams and tensor networks.
