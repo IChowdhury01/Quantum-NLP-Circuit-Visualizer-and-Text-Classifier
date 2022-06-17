@@ -13,7 +13,7 @@ Model recorded **92.86% accuracy** after 200 epochs.
 1. Sentences are first transformed into string diagrams
    - The string diagrams have a syntax-based model, understanding the context of word ordering in the sentence (i.e. "Rabbits chase dogs" is interpreted differently from "Dogs chase rabbits".
 3. The string diagram is rewritten and normalized to reduce computational overhead and training time.
-4. The abstract string diagram is parametrized, transformed into a concrete quantum circuit (for quantum computers) or tensor network (for classical computers)
+4. The abstract string diagram is parametrized (transformed) into a concrete quantum circuit (for quantum computers) or tensor network (for classical computers)
    - The quantum circuit can be visualized in multiple ways. We show 3 different circuit visualizations: DisCoPy, pytket, and tket.
 5. By sending many sentences into this pipeline, we can train a model off the quantum circuits to perform specific NLP tasks, like classification. 
 
@@ -47,9 +47,9 @@ Each step of the process is visualized through the diagrams below: Raw string di
 
 ## Limitations
 
-- Right now, the model is limited to single sentences with simple grammar. 
+- The Lambeq library is still in development, so our model is currently limited to simple sentences. Long, complex sentences may fail parsing. 
 
-- For very long, complex sentences, a large number of qubits will be required for the quantum circuit representation. This can cause complications depending on the quantum machine's capability to process many qubits any once.
+- For very long, complex sentences, a large number of qubits will be required for the quantum circuit representation. This can cause complications depending on the training machine's capability to process many qubits any once.
 
 ## Acknowledgements
 - Cambridge Quantum Computing research paper: https://arxiv.org/pdf/2110.04236.pdf
