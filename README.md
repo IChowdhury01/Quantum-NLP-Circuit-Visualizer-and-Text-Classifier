@@ -9,7 +9,7 @@ Model recorded **92.86% accuracy** after 200 epochs.
 ### How it works
 
 1. Sentences are first transformed into string diagrams
-   - The string diagrams have a syntax-based model, understanding the context of word ordering in the sentence (i.e. Rabbits chase dogs is interpreted differently from dogs chase rabbits.
+   - The string diagrams have a syntax-based model, understanding the context of word ordering in the sentence (i.e. "Rabbits chase dogs" is interpreted differently from "Dogs chase rabbits".
 3. The string diagram is rewritten and normalized to reduce computational overhead and training time.
 4. The abstract string diagram is parametrized, transformed into a concrete quantum circuit (for quantum computers) or tensor network (for classical computers)
    - The quantum circuit can be visualized in multiple ways. We show 3 different circuit visualizations: DisCoPy, pytket, and tket.
