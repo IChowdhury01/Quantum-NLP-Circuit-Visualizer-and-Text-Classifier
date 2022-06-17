@@ -1,8 +1,8 @@
 from discopy import grammar
 from lambeq import BobcatParser, Rewriter, AtomicType, IQPAnsatz
-from pytket.circuit.display import render_circuit_jupyter, render_circuit_as_html
-from pytket.extensions.qiskit import tk_to_qiskit
 from matplotlib import pyplot
+from pytket.extensions.qiskit import tk_to_qiskit
+
 from app.src.main.constants import sample_sentences
 
 
@@ -36,6 +36,8 @@ def quantum_compute(sentence):
 
     qiskit_circuit.draw(output='mpl')
     pyplot.show()
+
+    # Todo: Training
 
 
 test_sentence = sample_sentences.BASIC_TEST

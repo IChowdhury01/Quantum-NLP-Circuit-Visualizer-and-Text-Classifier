@@ -1,5 +1,5 @@
-from discopy import grammar
-from lambeq import BobcatParser, Rewriter
+from discopy import grammar, Dim
+from lambeq import BobcatParser, Rewriter, AtomicType, MPSAnsatz
 
 from app.src.main.constants import sample_sentences
 
@@ -19,9 +19,20 @@ def classical_compute(sentence):
     curried_diagram = curry_functor(prep_reduced_diagram).normal_form()
     curried_diagram.draw(figsize=(5, 4), fontsize=13)
 
-    # Todo: Parameterize: convert abstract string diagram to concrete tensor network
+    # Parameterize: convert abstract string diagram to concrete tensor network
+    # Define atomic types
+    N = AtomicType.NOUN
+    S = AtomicType.SENTENCE
+    P = AtomicType.PREPOSITIONAL_PHRASE
+    C = AtomicType.CONJUNCTION
+
+    # Tensor network
+    mps_ansatz = MPSAnsatz({N: Dim(4), S: Dim(2), P: Dim(3), C: Dim(1)}, bond_dim=3)
+    mps_diagram = mps_ansatz(diagram)
+    mps_diagram.draw(figsize=(13, 7), fontsize=13)
+
     # Todo: Training
 
 
-test_sentence = sample_sentences.BASIC_TEST
+test_sentence = sample_sentences.ADS_ISSUED
 classical_compute(test_sentence)
