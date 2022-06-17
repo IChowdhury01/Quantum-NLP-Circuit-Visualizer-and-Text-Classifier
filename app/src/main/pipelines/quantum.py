@@ -50,4 +50,5 @@ def quantum_compute(sentence):
 
 
 test_sentence = sample_sentences.BASIC_TEST
+print(f"Input string: {test_sentence}")
 quantum_compute(test_sentence)
