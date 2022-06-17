@@ -52,5 +52,5 @@ Each step of the process is visualized through the diagrams below: Raw string di
 - For very long, complex sentences, a large number of qubits will be required for the quantum circuit representation. This can cause complications depending on the quantum machine's capability to process many qubits any once.
 
 ## Acknowledgements
-- Research paper: https://arxiv.org/pdf/2110.04236.pdf
+- Cambridge Quantum Computing research paper: https://arxiv.org/pdf/2110.04236.pdf
 - Lambeq documentation: https://cqcl.github.io/lambeq/notebooks.html
