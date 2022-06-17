@@ -2,7 +2,7 @@ from discopy import grammar
 from lambeq import BobcatParser, Rewriter, AtomicType, IQPAnsatz
 from pytket.circuit.display import render_circuit_jupyter, render_circuit_as_html
 from pytket.extensions.qiskit import tk_to_qiskit
-
+from matplotlib import pyplot
 from app.src.main.constants import sample_sentences
 
 
@@ -29,13 +29,13 @@ def quantum_compute(sentence):
 
     ansatz = IQPAnsatz({N: 1, S: 1, P: 1, C: 1}, n_layers=4)
     discopy_circuit = ansatz(diagram)
-    discopy_circuit.draw(figsize=(15, 10))  # DisCoPy-format quantum circuit
+    discopy_circuit.draw(figsize=(15, 10))  # Quantum circuit in DisCoPy format
 
-    tket_circuit = discopy_circuit.to_tk()
+    tket_circuit = discopy_circuit.to_tk()  # pytket and qiskit formats
     qiskit_circuit = tk_to_qiskit(tket_circuit)
 
-    render_circuit_as_html(tket_circuit)  # pytket-format quantum circuit
     qiskit_circuit.draw(output='mpl')
+    pyplot.show()
 
 
 test_sentence = sample_sentences.BASIC_TEST
