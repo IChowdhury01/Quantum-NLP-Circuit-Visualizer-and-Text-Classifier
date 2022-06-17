@@ -15,7 +15,7 @@ Model recorded **92.86% accuracy** after 200 epochs.
    - The quantum circuit can be visualized in multiple ways. We show 3 different circuit visualizations: DisCoPy, pytket, and tket.
 5. By sending many sentences into this pipeline, we can train a model off the quantum circuits to perform specific NLP tasks, like classification. 
 
-Each step of the process is visualized through the below diagrams. 
+Each step of the process is visualized through the diagrams below: Raw string diagram -> Normalized string diagram -> Tket quantum circuit. 
 ![1](docs/screenshots/RabbitsStringDiagram.PNG)
 ![2](docs/screenshots/RabbitsNormalizedStringDiagram.png)
 ![3](docs/screenshots/RabbitsTketCircuit.png)
