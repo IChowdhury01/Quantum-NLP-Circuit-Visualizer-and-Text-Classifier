@@ -17,10 +17,13 @@ Model recorded **92.86% accuracy** after 200 epochs.
 
 Each step of the process is visualized through the below diagrams. 
 ![1](docs/screenshots/RabbitsStringDiagram.PNG)
+
 Raw string diagram.
 ![2](docs/screenshots/RabbitsNormalizedStringDiagram.png)
+
 Rewritten, normalized string diagram.
 ![3](docs/screenshots/RabbitsTketCircuit.png)
+
 Tket quantum circuit (composed of Qubits)
 
 ### Installation
