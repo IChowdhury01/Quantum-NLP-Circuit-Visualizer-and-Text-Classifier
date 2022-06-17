@@ -45,10 +45,10 @@
 0  person bakes dinner .
 0  man cooks tasty meal .
 0  skillful person cooks meal .
-0  person skis down the slope .
-0  Megan runs to the aquarium .
-0  John walks in the park .
-1  Program-Maintenance-Fee is the initial 10000 .
+0  person skis down slope .
+0  Megan runs to aquarium .
+0  John walks in park .
+1  Program-Maintenance-Fee is initial 10000 .
 1  Commencement-Date is Jan 15 2020 .
 1  Effective End-Date is Jan 14 2022 .
 1  Initial ADS-Amount is equal to 6000000 .
@@ -63,7 +63,7 @@
 1  Fixed amount is equal to 35000 .
 1  Upfront payment is equal to 95100 .
 1  Net-Revenue is 95 percent of Issuance .
-1  Program-Maintenance-Fee is the initial 30000 of Program Revenues .
+1  Program-Maintenance-Fee is initial 30000 of Program Revenues .
 1  Effective Start-Date is Feb 06 2019 .
 1  Net-Revenue is 20 percent of Issuance and Cancellation .
 1  Net-Revenue is 65 percent of TA Fee .

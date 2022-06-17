@@ -1,6 +1,6 @@
 # Using Quantum NLP for Intelligent Understanding of ADR Contract Terms
 
-In this project, we use the quantum NLP library **Lambeq** to process sentences describing contract terms for American depository receipts.
+In this project, we use the quantum NLP library **Lambeq** to process sentences describing contract terms for American depository receipts (ADRs).
 
 ### How it works
 
