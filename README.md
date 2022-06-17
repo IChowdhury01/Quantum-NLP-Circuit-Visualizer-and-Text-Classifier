@@ -1,6 +1,6 @@
 # Using Quantum NLP for Intelligent Understanding of Sentences
 
-In this project, we use the quantum NLP library **Lambeq** to process sentences into quantum circuits, which can then be trained on a quantum computer for syntax-based understanding.
+In this project, we use the quantum NLP library **Lambeq** to process sentences into quantum circuits, which can then be trained on a quantum computer for syntax-based understanding and specific NLP tasks (such as classification).
 
 Model recorded **92.86% accuracy** after 200 epochs.
 
