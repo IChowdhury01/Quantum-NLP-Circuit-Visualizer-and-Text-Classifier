@@ -1,5 +1,7 @@
 # Using Quantum NLP for Intelligent Understanding of Sentences
 
+## Background
+
 In this project, we use the quantum NLP library **Lambeq** to process sentences into quantum circuits, which can then be trained on a quantum computer for syntax-based understanding and specific NLP tasks (such as classification).
 
 Model recorded **92.86% accuracy** after 200 epochs.
@@ -19,6 +21,8 @@ Each step of the process is visualized through the diagrams below: Raw string di
 ![1](docs/screenshots/RabbitsStringDiagram.PNG)
 ![2](docs/screenshots/RabbitsNormalizedStringDiagram.png)
 ![3](docs/screenshots/RabbitsTketCircuit.png)
+
+## Setup
 
 ### Installation
 
@@ -41,12 +45,12 @@ Each step of the process is visualized through the diagrams below: Raw string di
 - [quantum_training.py](app/src/main/quantum_training.py)
   - Trains a model off quantum circuits, to classify sentences as containing an object-based or subject-based relative clause.
 
-### Limitations
+## Limitations
 
 - Right now, the model is limited to single sentences with simple grammar. 
 
 - For very long, complex sentences, a large number of qubits will be required for the quantum circuit representation. This can cause complications depending on the quantum machine's capability to process many qubits any once.
 
-### Acknowledgements
+## Acknowledgements
 - Research paper: https://arxiv.org/pdf/2110.04236.pdf
 - Lambeq documentation: https://cqcl.github.io/lambeq/notebooks.html
