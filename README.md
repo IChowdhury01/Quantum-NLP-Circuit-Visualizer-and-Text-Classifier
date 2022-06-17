@@ -1,8 +1,8 @@
-# Using Quantum NLP for Intelligent Understanding of ADR Contract Terms
+# Using Quantum NLP for Intelligent Understanding of Sentences
 
 In this project, we use the quantum NLP library **Lambeq** to process sentences into quantum circuits, which can then be trained on a quantum computer for syntax-based understanding.
 
-The end goal of this project is to be able to parse American depository receipt (ADR) engagement letters and intelligently decipher the terms of the contracts. 
+The end goal of this project is to be able to parse American depository receipt (ADR) engagement letters and intelligently decipher the terms of the contracts.
 
 Model recorded **92.86% accuracy** after 200 epochs.
 
@@ -40,3 +40,13 @@ Each step of the process is visualized through the below diagrams.
   - Send a sentence into the classical pipeline, and see the resulting string diagrams and tensor networks.
 - [quantum_training.py](app/src/main/quantum_training.py)
   - Trains a model off quantum circuits, to classify sentences as containing an object-based or subject-based relative clause.
+
+### Limitations
+
+- Right now, the model is limited to single sentences with simple grammar. 
+
+- For very long, complex sentences, a large number of qubits will be required for the quantum circuit representation. This can cause complications depending on the quantum machine's capability to process many qubits any once.
+
+### Acknowledgements
+- Research paper: https://arxiv.org/pdf/2110.04236.pdf
+- Lambeq documentation: https://cqcl.github.io/lambeq/notebooks.html
