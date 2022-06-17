@@ -7,4 +7,3 @@ END_DATE = "Effective End-Date is Jan 14 2022 ."
 ADS_ISSUED = "Initial ADS-Amount is equal to 6000000 ."
 
 NON_ADR_WALKING = "John walks in the park ."
-

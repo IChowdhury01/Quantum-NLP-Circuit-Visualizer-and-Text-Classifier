@@ -73,3 +73,5 @@
 1  Fixed amount is equal to 3000 .
 1  Upfront amount is equal to 1000 .
 1  Contract renews 90 days before termination .
+1  Minimum-Balance is 95 percent .
+1  Minimum-Balance is equal to 300000 .
