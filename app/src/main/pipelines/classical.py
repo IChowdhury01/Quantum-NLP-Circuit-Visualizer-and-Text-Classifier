@@ -28,4 +28,4 @@ def send_into_classical_pipeline(sentence):
     mps_diagram = mps_ansatz(diagram)
     mps_diagram.draw(figsize=(13, 7), fontsize=13)
 
-    # Todo: Training
+# Todo: Training
