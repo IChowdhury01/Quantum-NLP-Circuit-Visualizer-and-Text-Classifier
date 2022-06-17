@@ -1,0 +1,35 @@
+0  woman prepares tasty dinner .
+0  man cooks tasty sauce .
+0  man prepares program .
+0  skillful woman runs application .
+0  person bakes meal .
+0  organization that fleet destroy .
+0  person that teacher teach .
+0  device that air enter .
+0  document that student submit .
+0  document that government sell .
+0  mammal that police have .
+0  material that police use ..
+0  device that show time .
+0  vehicle that replace horse .
+0  scientist that discover species .
+0  scientist that discover star .
+0  vehicle that destroy vessel .
+0  Michael walks to zoo .
+0  water enters phone .
+0  fire burns papers .
+1  Commence-Date is Mar 02 2015 .
+1  Contract is effective May 11 2016 .
+1  Effective End-Date is Jun 20 2017 .
+1  Contract will terminate Jul 25 2018 .
+1  Contract terminates 3 years after Commencement-Date .
+1  Contract terminates after 1 year .
+1  Advance payment is equal to 12500 .
+1  Advance amount is 3000 .
+1  Fixed amount is equal to 9000 .
+1  Upfront amount is 5000 .
+1  Net-Revenue is 5 percent of Dividend .
+1  Net-Revenue is 19 percent of Scrip .
+1  Program-Maintenance-Fee is initial 1500 .
+1  Program-Maintenance-Fee is initial 100 of Program Revenues .
+1  Contract renews 30 days before termination .
