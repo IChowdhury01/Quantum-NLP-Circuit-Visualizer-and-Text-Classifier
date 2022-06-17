@@ -17,8 +17,9 @@ ansatz = IQPAnsatz({N: 1, S: 1}, n_layers=2)
 discopy_circuit = ansatz(diagram)
 #discopy_circuit.draw(figsize=(15,10))
 
-from pytket.circuit.display import render_circuit_jupyter
+from pytket.circuit.display import render_circuit_as_html
 
 tket_circuit = discopy_circuit.to_tk()
 
-render_circuit_jupyter(tket_circuit)
+with open("data.html", "w") as file:
+  file.write(render_circuit_as_html(tket_circuit, False))
