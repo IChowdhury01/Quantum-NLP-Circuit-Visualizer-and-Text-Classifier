@@ -35,4 +35,5 @@ def classical_compute(sentence):
 
 
 test_sentence = sample_sentences.ADS_ISSUED
+print(f"Input string: {test_sentence}")
 classical_compute(test_sentence)
