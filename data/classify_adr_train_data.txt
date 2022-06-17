@@ -1,0 +1,75 @@
+0  skillful man prepares sauce .
+0  skillful man bakes dinner .
+0  woman cooks tasty meal .
+0  man prepares meal .
+0  skillful woman debugs program .
+0  woman prepares tasty meal .
+0  person runs useful application .
+0  woman prepares sauce .
+0  woman prepares dinner .
+0  skillful person prepares meal .
+0  skillful person bakes dinner .
+0  skillful woman bakes meal .
+0  woman runs useful application .
+0  man bakes tasty meal .
+0  person prepares tasty meal .
+0  woman runs application .
+0  man prepares software .
+0  man bakes tasty dinner .
+0  man debugs useful application .
+0  person debugs useful application .
+0  man prepares useful application .
+0  skillful man cooks dinner .
+0  man debugs useful software .
+0  person cooks dinner .
+0  person debugs useful software .
+0  person runs application .
+0  skillful woman bakes sauce .
+0  skillful man bakes meal .
+0  woman cooks meal .
+0  woman bakes dinner .
+0  woman cooks tasty dinner .
+0  woman cooks dinner .
+0  man bakes tasty sauce .
+0  man prepares dinner .
+0  skillful person cooks sauce .
+0  skillful man prepares software .
+0  person prepares software .
+0  person runs software .
+0  person prepares tasty sauce .
+0  person cooks meal .
+0  woman debugs software .
+0  skillful man runs software .
+0  person bakes tasty sauce .
+0  woman debugs application .
+0  person bakes dinner .
+0  man cooks tasty meal .
+0  skillful person cooks meal .
+0  person skis down the slope .
+0  Megan runs to the aquarium .
+0  John walks in the park .
+1  Program-Maintenance-Fee is the initial 10000 .
+1  Commencement-Date is Jan 15 2020 .
+1  Effective End-Date is Jan 14 2022 .
+1  Initial ADS-Amount is equal to 6000000 .
+1  Claim-Period is 30 days .
+1  Claim-Period is 90 days .
+1  Commencement-Date is Dec 31 2005 .
+1  Initial ADS-Amount is equal to 10000 .
+1  Renewal Notice-Period is 60 days .
+1  Contract terminates on Apr 10 2018 .
+1  Contract is effective May 09 2012 .
+1  Advance payment is equal to 150000 .
+1  Fixed amount is equal to 35000 .
+1  Upfront payment is equal to 95100 .
+1  Net-Revenue is 95 percent of Issuance .
+1  Program-Maintenance-Fee is the initial 30000 of Program Revenues .
+1  Effective Start-Date is Feb 06 2019 .
+1  Net-Revenue is 20 percent of Issuance and Cancellation .
+1  Net-Revenue is 65 percent of TA Fee .
+1  Contract terminates 4 years after Commencement-Date .
+1  Contract terminates after 2 years .
+1  Advance amount is equal to 4000 .
+1  Fixed amount is equal to 3000 .
+1  Upfront amount is equal to 1000 .
+1  Contract renews 90 days before termination .
