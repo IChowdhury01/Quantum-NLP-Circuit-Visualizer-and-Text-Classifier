@@ -1,5 +1,4 @@
-from app.src.main.pipelines.quantum import quantum_compute
-
+from app.src.main.pipelines.quantum import send_into_quantum_pipeline
 
 test_sentence = input("Enter a sentence: ")
-quantum_compute(test_sentence)
+send_into_quantum_pipeline(test_sentence)
