@@ -49,6 +49,6 @@ def quantum_compute(sentence):
     # Todo: Training
 
 if __name__ == "__main__":
-    test_sentence = sample_sentences.BASIC_TEST
+    test_sentence = sample_sentences.NON_ADR_WALKING
     print(f"Input string: {test_sentence}")
     quantum_compute(test_sentence)
