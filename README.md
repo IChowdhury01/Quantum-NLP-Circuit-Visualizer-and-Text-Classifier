@@ -11,7 +11,8 @@ Model recorded **92.86% accuracy** after 200 epochs.
 1. Sentences are first transformed into string diagrams with a syntax-based model.
 2. The string diagram is rewritten and normalized to reduce computational overhead and training time.
 3. The abstract string diagram is parametrized, transformed into a concrete quantum circuit (for quantum computers) or tensor network (for classical computers)
-4. By sending many sentences into this pipeline, we can train a model off the quantum circuits to perform specific NLP tasks, like classification. 
+   - The quantum circuit can be visualized in multiple ways. We show 3 different circuit visualizations: DisCoPy, pytket, and tket.
+5. By sending many sentences into this pipeline, we can train a model off the quantum circuits to perform specific NLP tasks, like classification. 
 
 Each step of the process is visualized through the below diagrams. 
 ![1](docs/screenshots/RabbitsStringDiagram.PNG)
