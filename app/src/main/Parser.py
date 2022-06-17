@@ -4,22 +4,22 @@ from lambeq import BobcatParser
 parser = BobcatParser(verbose='suppress')
 diagram = parser.sentence2diagram("Program means 100% during the Contract")
 
-diagram.draw(figsize=(11,5), fontsize=13)
+#diagram.draw(figsize=(11,5), fontsize=13)
 
-#from lambeq import Rewriter
+from lambeq import Rewriter
 
 # Apply rewrite rule for prepositional phrases
 
-#rewriter = Rewriter(['prepositional_phrase', 'determiner'])
-#rewritten_diagram = rewriter(diagram)
+rewriter = Rewriter(['prepositional_phrase', 'determiner'])
+rewritten_diagram = rewriter(diagram)
 
 #rewritten_diagram.draw(figsize=(11,5), fontsize=13)
 
-#normalised_diagram = rewritten_diagram.normal_form()
+normalised_diagram = rewritten_diagram.normal_form()
 #normalised_diagram.draw(figsize=(9,4), fontsize=13)
 
-#curry_functor = Rewriter(['curry'])
-#curried_diagram = curry_functor(normalised_diagram)
+curry_functor = Rewriter(['curry'])
+curried_diagram = curry_functor(normalised_diagram)
 #curried_diagram.draw(figsize=(9,4), fontsize=13)
 
-#curried_diagram.normal_form().draw(figsize=(5,4), fontsize=13)
+curried_diagram.normal_form().draw(figsize=(5,4), fontsize=13)
