@@ -2,7 +2,7 @@ from lambeq import BobcatParser
 
 # Parse the sentence
 parser = BobcatParser(verbose='suppress')
-diagram = parser.sentence2diagram("Miles gave Gwen a ride")
+diagram = parser.sentence2diagram("Revenue Share equals sum of Issuance and Cancellation .")
 
 diagram.draw(figsize=(11,5), fontsize=13)
 
