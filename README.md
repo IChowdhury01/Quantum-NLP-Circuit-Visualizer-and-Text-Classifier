@@ -17,7 +17,7 @@ Model recorded **92.86% accuracy** after 200 epochs.
 Each step of the process is visualized through the below diagrams. 
 ![1](docs/screenshots/RabbitsStringDiagram.PNG)
 ![2](docs/screenshots/RabbitsNormalizedStringDiagram.png)
-![3](docs/screenshots/RabbitsQiskitCircuit.png)
+![3](docs/screenshots/RabbitsTketCircuit.png)
 
 ### Installation
 
