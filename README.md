@@ -2,8 +2,6 @@
 
 In this project, we use the quantum NLP library **Lambeq** to process sentences into quantum circuits, which can then be trained on a quantum computer for syntax-based understanding.
 
-The end goal of this project is to be able to parse American depository receipt (ADR) engagement letters and intelligently decipher the terms of the contracts.
-
 Model recorded **92.86% accuracy** after 200 epochs.
 
 ![Results](docs/screenshots/QuantumTrainingResults.PNG)
