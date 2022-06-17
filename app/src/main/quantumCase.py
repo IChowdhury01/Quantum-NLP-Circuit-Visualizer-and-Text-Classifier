@@ -1,8 +1,11 @@
 from lambeq import BobcatParser
+from discopy import grammar
+from lambeq import Rewriter
+import sampleSentences
 
-sentence = 'John walks in the park'
+testSentence = sampleSentences.ADS_ISSUED
 
-# Get a string diagram
+# Convert to string diagram
 parser = BobcatParser(verbose='text')
 diagram = parser.sentence2diagram(sentence)
 

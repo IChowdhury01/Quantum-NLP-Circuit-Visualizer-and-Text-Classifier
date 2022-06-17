@@ -1,1 +1,1 @@
-Placeholder. Add training/testing datasets here.
+Placeholder. Add training/testing data here.
