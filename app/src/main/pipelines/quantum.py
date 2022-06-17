@@ -1,9 +1,14 @@
+import os
+import webbrowser
+
 from discopy import grammar
 from lambeq import BobcatParser, Rewriter, AtomicType, IQPAnsatz
 from matplotlib import pyplot
+from pytket.circuit.display import render_circuit_as_html
 from pytket.extensions.qiskit import tk_to_qiskit
 
 from app.src.main.constants import sample_sentences
+from settings import GEN_PATH
 
 
 def quantum_compute(sentence):
@@ -26,14 +31,18 @@ def quantum_compute(sentence):
     S = AtomicType.SENTENCE
     P = AtomicType.PREPOSITIONAL_PHRASE
     C = AtomicType.CONJUNCTION
-
     ansatz = IQPAnsatz({N: 1, S: 1, P: 1, C: 1}, n_layers=4)
-    discopy_circuit = ansatz(diagram)
-    discopy_circuit.draw(figsize=(15, 10))  # Quantum circuit in DisCoPy format
 
-    tket_circuit = discopy_circuit.to_tk()  # pytket and qiskit formats
-    qiskit_circuit = tk_to_qiskit(tket_circuit)
+    discopy_circuit = ansatz(diagram)   # Quantum circuit, DisCoPy format
+    discopy_circuit.draw(figsize=(15, 10))
 
+    tket_circuit = discopy_circuit.to_tk()  # Quantum circuit, pytket format
+    save_path = os.path.join(GEN_PATH, 'tket_circuit.html')
+    with open(save_path, "w") as file:
+        file.write(render_circuit_as_html(tket_circuit, False))
+    webbrowser.open_new(save_path)
+
+    qiskit_circuit = tk_to_qiskit(tket_circuit)  # qiskit format
     qiskit_circuit.draw(output='mpl')
     pyplot.show()
 

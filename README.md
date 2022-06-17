@@ -14,9 +14,10 @@ Each step of the process is visualized through diagrams.
 
 1. Install python and pip. 
 2. Run the following commands to install required libraries:
-    ```
-    pip install lambeq
-    pip install ipython
-    pip install pytket-qiskit
-    pip install pylatexenc
-    ```
+   ```
+   pip install lambeq 
+   pip install ipython  # For data visualization
+   pip install pytket-qiskit
+   pip install pylatexenc
+   pip install pytest  # For running tests
+   ```
