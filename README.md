@@ -4,7 +4,7 @@ Abhijit Alur, Ivan Chowdhury, Anthony Escalante
 
 ## Background
 
-In this project, we use the quantum NLP library **Lambeq** to transform sentences into quantum circuits and visualize them. These quantum circuits can be used by a quantum computer to train a model for NLP tasks at exponentially high speeds. 
+In this project, we use the quantum NLP library **lambeq** to transform sentences into quantum circuits and visualize them. These quantum circuits can be used by a quantum computer to train a model for NLP tasks at exponentially high speeds. 
 
 Using this technique, we also trained a fully syntax-based classifier that can understand the ordering of words within a sentence, using the DisCoCat model. 
 
@@ -51,8 +51,8 @@ Each step of the process is visualized through the diagrams below: Raw string di
 
 ## Limitations
 
-- The Lambeq library is still in development, so our pipeline is currently limited to simple sentences. Very long, complex sentences and run-on sentences may fail parsing. 
+- The lambeq library is still in development, so our pipeline is currently limited to simple sentences. Very long, complex sentences and run-on sentences may fail parsing. 
 
 ## Acknowledgements
 - Cambridge Quantum Computing research paper: https://arxiv.org/pdf/2110.04236.pdf
-- Lambeq documentation: https://cqcl.github.io/lambeq/notebooks.html
+- lambeq documentation: https://cqcl.github.io/lambeq/notebooks.html
