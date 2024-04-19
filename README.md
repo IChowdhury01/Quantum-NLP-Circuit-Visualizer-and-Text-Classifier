@@ -1,4 +1,4 @@
-# Using Quantum NLP for Intelligent Understanding of Sentences
+# Quantum NLP Circuit Visualizer and Text Classifier
 
 Abhijit Alur, Ivan Chowdhury, Anthony Escalante
 
