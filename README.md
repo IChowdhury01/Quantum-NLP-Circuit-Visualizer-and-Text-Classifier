@@ -2,6 +2,8 @@
 
 Abhijit Alur, Ivan Chowdhury, Anthony Escalante
 
+JPMorgan Chase Hackathon Project
+
 ## Background
 
 In this project, we use the quantum NLP library **lambeq** to transform sentences into quantum circuits and visualize them. These quantum circuits can be used by a quantum computer to train a model for NLP tasks at exponentially high speeds. 
